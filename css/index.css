@@ -11,12 +11,12 @@ main {
     align-items: center;
     margin: auto;
     background-color: white;
-    max-width: 40%;
+    max-width: 30%;
     border-radius: 5%;
 }
 
 .image {
-    
+    max-width: fit-content;
 }
 
 h1 {

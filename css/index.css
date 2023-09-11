@@ -28,10 +28,35 @@ h1 {
 
 p {
     font-size: 1rem;
-    color: grey;
+    color: hsl(224, 23%, 55%);
 }
 
 .first-paragraph {
     text-align: center;
+    max-width: 80%;
+}
 
+.annual-plan {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px 25px;
+    border-radius: 10%;
+}
+
+.music-icon {
+    margin-right: 1rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+.annual-plan a {
+    color: hsl(245, 75%, 52%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 6rem;
+    font-size: .9rem;
 }

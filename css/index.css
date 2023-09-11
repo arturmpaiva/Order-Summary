@@ -16,12 +16,12 @@ main {
 }
 
 .image {
-    height: 217px;
-    width: 444px;
-    background-image: url(../img/illustration-hero.svg);
+    
 }
 
 h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
     font-size: 1.6rem;
     color: hsl(223, 47%, 23%);
 }
@@ -32,16 +32,16 @@ p {
 }
 
 .first-paragraph {
+    padding-bottom: 20px;
     text-align: center;
     max-width: 80%;
 }
 
 .annual-plan {
     display: flex;
-    flex-direction: row;
     background-color: hsl(225, 100%, 98%);
     padding: 15px 25px;
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 .music-icon {
@@ -59,4 +59,23 @@ h2 {
     align-items: center;
     margin-left: 6rem;
     font-size: .9rem;
+}
+
+.payment,
+.cancel {
+    text-decoration: none;
+}
+
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 10px 105px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+    margin-bottom: 40px;
 }

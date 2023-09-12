@@ -94,3 +94,21 @@ h2 {
     font-size: .8rem;
     font-weight: 700;
 }
+
+@media (max-width: 375px) {
+    main {
+        max-width: 90%;
+    }
+
+    .image {
+        height: 180px;
+    }
+
+    .annual-plan {
+        
+    }
+
+    h2 {
+        font-size: .8rem;
+    }
+}

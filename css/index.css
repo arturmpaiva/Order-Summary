@@ -11,23 +11,28 @@ main {
     align-items: center;
     margin: auto;
     background-color: white;
-    max-width: 30%;
+    max-width: 26%;
     border-radius: 5%;
 }
 
 .image {
-    max-width: fit-content;
+    background-image: url(../img/illustration-hero.svg);
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    border-top: 5%;
 }
 
 h1 {
     padding-top: 30px;
     padding-bottom: 15px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    font-weight: 900;
     color: hsl(223, 47%, 23%);
 }
 
 p {
-    font-size: 1rem;
+    font-size: .9rem;
     color: hsl(224, 23%, 55%);
 }
 
@@ -40,8 +45,8 @@ p {
 .annual-plan {
     display: flex;
     background-color: hsl(225, 100%, 98%);
-    padding: 15px 25px;
     border-radius: 3%;
+    padding: 20px;
 }
 
 .music-icon {
@@ -49,7 +54,9 @@ p {
 }
 
 h2 {
-    font-size: 1.1rem;
+    font-size: .9rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
 }
 
 .annual-plan a {
@@ -58,7 +65,8 @@ h2 {
     flex-direction: row;
     align-items: center;
     margin-left: 6rem;
-    font-size: .9rem;
+    font-size: .8rem;
+    font-weight: 700;
 }
 
 .payment,
@@ -69,13 +77,17 @@ h2 {
 .payment {
     background-color: hsl(245, 75%, 52%);
     color: white;
-    padding: 10px 105px;
+    padding: 12px 90px;
     margin-top: 30px;
     border-radius: 10%;
+    font-size: .8rem;
+    font-weight: 700;
 }
 
 .cancel {
     color: hsl(224, 23%, 55%);
     margin-top: 30px;
     margin-bottom: 40px;
+    font-size: .8rem;
+    font-weight: 700;
 }
